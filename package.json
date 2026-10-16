@@ -1,0 +1,18 @@
+{
+  "name": "ptero-bulk-9router",
+  "version": "1.0.0",
+  "description": "Bulk-create ptero.pro anonymous accounts, harvest tokens & session cookies, and serve them to 9Router as a self-healing OpenAI-compatible pool.",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": { "ptero-bulk": "src/cli.js" },
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "create": "node src/cli.js create",
+    "verify": "node src/cli.js verify",
+    "serve": "node src/cli.js serve",
+    "connect": "node src/cli.js connect",
+    "list": "node src/cli.js list"
+  },
+  "keywords": ["ptero", "9router", "openai-compatible", "bulk", "adapter", "ai", "llm", "gateway"],
+  "files": ["src", "docs", "brand", "README.md", "LICENSE", "STRUCTURE.md", "run.sh"]
+}
